@@ -1,0 +1,290 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- disable iPhone inital scale -->
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
+<meta name="robots" content="INDEX, FOLLOW" />
+<meta name="description" content="@@(metaDescriptionContent)@@">
+<meta name="keywords" content="@@(keywordsContent)@@">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="../js/script.js"></script>
+
+<link href="../css/nav-styles.css" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" href="../nivo-slider/themes/default/default.css" type="text/css" media="screen" />
+<!--<link rel="stylesheet" href="../themes/light/light.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../themes/dark/dark.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../themes/bar/bar.css" type="text/css" media="screen" />-->
+<link rel="stylesheet" href="../nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../nivo-slider/demo/style-homepage.css" type="text/css" media="screen" />
+
+
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/styles.css" rel="stylesheet" type="text/css">
+<link href="../css/media-queries.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="../css/sinister-css/sinister.css">
+<style>
+
+@media all and (max-width: 360px) {
+	
+	
+	#productTitleDetailPageDino h2 {
+	font-size:120% !important;
+}
+
+}
+
+
+
+
+
+
+@media all and (max-width: 600px) {
+	
+	
+	#productTitleDetailPageDino h2 {
+	font-size:140%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 950px) {
+
+#productPictureMapContainer {
+	background:ivory url(images/map-worldAIcropped.jpg) no-repeat top !important;
+	background-size:contain;
+	border-top:10px solid cornsilk;
+	border-right:10px solid cornsilk;
+	border-left:10px solid cornsilk;
+	width:auto;
+ 
+
+
+}
+
+
+#productPictureFantasyMapContainer {
+	background:ivory url(images/map-fantasyCropped.jpg) no-repeat top !important;
+	background-size:contain;
+	border-top:10px solid cornsilk;
+	border-right:10px solid cornsilk;
+	border-left:10px solid cornsilk;
+	width:auto;
+	
+	
+}
+
+
+</style>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="bodyClass" type="text" value="africanBackground sectionFigurines" -->
+<!-- TemplateParam name="americanClass" type="text" value="american" -->
+<!-- TemplateParam name="americanHref" type="text" value="#" -->
+<!-- TemplateParam name="homeHref" type="text" value="#" -->
+<!-- TemplateParam name="figurinesHref" type="text" value="#" -->
+<!-- TemplateParam name="dinosaursHref" type="text" value="#" -->
+<!-- TemplateParam name="fantasyHref" type="text" value="#" -->
+<!-- TemplateParam name="fantasyClass" type="text" value="" -->
+<!-- TemplateParam name="dinosaursClass" type="text" value="" -->
+<!-- TemplateParam name="wildHref" type="text" value="#" -->
+<!-- TemplateParam name="wildClass" type="text" value="" -->
+<!-- TemplateParam name="farmHref" type="text" value="#" -->
+<!-- TemplateParam name="farmClass" type="text" value="" -->
+<!-- TemplateParam name="marineHref" type="text" value="#" -->
+<!-- TemplateParam name="marineClass" type="text" value="" -->
+<!-- TemplateParam name="accessoriesHref" type="text" value="#" -->
+<!-- TemplateParam name="buyHref" type="text" value="#" -->
+<!-- TemplateParam name="metaDescriptionContent" type="text" value="" -->
+<!-- TemplateParam name="keywordsContent" type="text" value="" -->
+<!-- TemplateParam name="mobile map background" type="URL" value="" -->
+</head>
+
+<body class="@@(_document['bodyClass'])@@" >
+
+<div id="topNavContainer">
+    
+    
+    	<div id='cssmenu'>
+            <ul>
+               <li><a href='@@(homeHref)@@' class="home"><span>Home</span></a></li>
+                              
+               
+               
+               <li class='active has-sub'><a href='@@(_document['figurinesHref'])@@' class="figurines"><span>Figurines</span></a>
+                  <ul>
+                  	 <li class='has-sub'><a href='@@(_document['dinosaursHref'])@@' class="@@(_document['dinosaursClass'])@@"><span>Dinosaurs</span></a>
+                        <!--<ul>
+                           <li><a href='#'><span>Sub Product</span></a></li>
+                           <li class='last'><a href='#'><span>Sub Product</span></a></li>
+                        </ul>-->
+                     </li>
+                     
+                     
+                     
+                     <li class='has-sub'><a href='@@(fantasyHref)@@' class="@@(_document['fantasyClass'])@@"><span>Fantasy Sets</span></a>
+                        <!--<ul>
+                           <li><a href='#'><span>Sub Product</span></a></li>
+                           <li class='last'><a href='#'><span>Sub Product</span></a></li>
+                        </ul>-->
+                     </li>
+                  	<li class='has-sub'><a href='@@(americanHref)@@' class="@@(_document['americanClass'])@@"><span>North American Animals</span></a>
+                        <!--<ul>
+                           <li><a href='#'><span>Sub Product</span></a></li>
+                           <li class='last'><a href='#'><span>Sub Product</span></a></li>
+                        </ul>-->
+                    </li>
+                  
+                  
+<li class='has-sub'><a href='@@(wildHref)@@' class="@@(_document['wildClass'])@@"><span>Wild Animals</span></a>
+                        <!--<ul>
+                           <li><a href='#'><span>Sub Product</span></a></li>
+                           <li class='last'><a href='#'><span>Sub Product</span></a></li>
+                        </ul>-->
+                    </li>
+                     <li class='has-sub'><a href='@@(farmHref)@@' class="@@(_document['farmClass'])@@"><span>Farm Animals</span></a>
+                        <!--<ul>
+                           <li><a href='#'><span>Sub Product</span></a></li>
+                           <li class='last'><a href='#'><span>Sub Product</span></a></li>
+                        </ul>-->
+                     </li>
+                     
+                     <li class='has-sub'><a href='@@(_document['marineHref'])@@' class="@@(_document['marineClass'])@@"><span>Marine Animals</span></a>
+                        <!--<ul>
+                           <li><a href='#'><span>Sub Product</span></a></li>
+                           <li class='last'><a href='#'><span>Sub Product</span></a></li>
+                        </ul>-->
+                     </li>
+                     
+                     
+                     
+                  </ul>
+               </li>
+               
+               
+               
+               
+               <li><a href='@@(accessoriesHref)@@' class="accessories"><span>Accessories</span></a></li>
+               <li class='last'><a href='@@(buyHref)@@' class="buy"><span>Where to Buy</span></a></li>
+            </ul>
+  </div>
+    
+    	
+    
+    
+    	
+    
+    
+    
+    
+    
+
+
+</div>
+<!-- TemplateBeginEditable name="mainContainer" -->
+<div id="container" style="padding-bottom:5%;"></div>
+<!-- TemplateEndEditable -->
+<div id="bottomFooterContainer">
+    
+<h6>©2015 TERRA by Battat™.<br> All Rights Reserved. Maison Joseph Battat Ltd.<br>Consumer Information Line: 1-800-8-BATTAT.</h6>
+    
+    </div>
+    
+    
+    
+<script type="text/javascript" src="nivo-slider/demo/scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="nivo-slider/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider({
+			effect: 'fade',               // Specify sets like: 'fold,fade,sliceDown'
+    		slices: 15,                     // For slice animations
+    		boxCols: 8,                     // For box animations
+    		boxRows: 4,                     // For box animations
+    		animSpeed: 1000,                 // Slide transition speed
+    		pauseTime: 6000,                // How long each slide will show
+    		startSlide: 0,                  // Set starting Slide (0 index)
+    		directionNav: true,             // Next & Prev navigation
+    		controlNav: false,               // 1,2,3... navigation
+    		controlNavThumbs: false,        // Use thumbnails for Control Nav
+    		pauseOnHover: false,             // Stop animation while hovering
+    		manualAdvance: false,           // Force manual transitions
+    		prevText: 'Prev',               // Prev directionNav text
+    		nextText: 'Next',               // Next directionNav text
+    		randomStart: true,             // Start on a random slide
+    		beforeChange: function(){},     // Triggers before a slide transition
+    		afterChange: function(){},      // Triggers after a slide transition
+    		slideshowEnd: function(){},     // Triggers after all slides have been shown
+    		lastSlide: function(){},        // Triggers when last slide is shown
+    		afterLoad: function(){}         // Triggers when slider has loaded
+		
+		});
+		
+		
+		$('#sliderTwo').nivoSlider({
+			effect: 'fade',               // Specify sets like: 'fold,fade,sliceDown'
+    		slices: 15,                     // For slice animations
+    		boxCols: 8,                     // For box animations
+    		boxRows: 4,                     // For box animations
+    		animSpeed: 1000,                 // Slide transition speed
+    		pauseTime: 6000,                // How long each slide will show
+    		startSlide: 0,                  // Set starting Slide (0 index)
+    		directionNav: true,             // Next & Prev navigation
+    		controlNav: false,               // 1,2,3... navigation
+    		controlNavThumbs: false,        // Use thumbnails for Control Nav
+    		pauseOnHover: false,             // Stop animation while hovering
+    		manualAdvance: false,           // Force manual transitions
+    		prevText: 'Prev',               // Prev directionNav text
+    		nextText: 'Next',               // Next directionNav text
+    		randomStart: true,             // Start on a random slide
+    		beforeChange: function(){},     // Triggers before a slide transition
+    		afterChange: function(){},      // Triggers after a slide transition
+    		slideshowEnd: function(){},     // Triggers after all slides have been shown
+    		lastSlide: function(){},        // Triggers when last slide is shown
+    		afterLoad: function(){}         // Triggers when slider has loaded
+		
+		});
+		
+		
+		
+		
+		
+		
+		
+    });
+</script>
+</body>
+</html>
